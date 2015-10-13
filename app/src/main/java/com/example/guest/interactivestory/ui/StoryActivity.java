@@ -1,11 +1,11 @@
-package com.example.guest.interactivestory;
+package com.example.guest.interactivestory.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import com.example.guest.interactivestory.R;
 
 public class StoryActivity extends AppCompatActivity {
 
