@@ -9,6 +9,8 @@ import com.example.guest.interactivestory.R;
 
 public class StoryActivity extends AppCompatActivity {
 
+    // private Page[] mPages;
+
     public static final String TAG = StoryActivity.class.getSimpleName();
 
     @Override
@@ -23,7 +25,8 @@ public class StoryActivity extends AppCompatActivity {
         }
 
         Log.d(TAG, name);
+
+        // mPages = new Page[7];
+
     }
-
-
 }

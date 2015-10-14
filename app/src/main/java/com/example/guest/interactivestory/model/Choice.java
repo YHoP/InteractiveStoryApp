@@ -1,11 +1,16 @@
 package com.example.guest.interactivestory.model;
 
 /**
- * Created by Guest on 10/13/15.
+ * Created by YHoP on 10/13/15.
  */
 public class Choice {
     private String mText;
     private int mNextPage;
+
+    public Choice(String text, int nextPage){
+        mText = text;
+        mNextPage = nextPage;
+    }
 
     public String getText() {
         return mText;
