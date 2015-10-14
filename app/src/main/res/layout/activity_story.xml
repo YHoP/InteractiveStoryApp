@@ -51,4 +51,5 @@
         android:layout_alignStart="@+id/choiceButton2"
         android:background="@android:color/white"
         android:textColor="#3a8aec"/>
+
 </RelativeLayout>

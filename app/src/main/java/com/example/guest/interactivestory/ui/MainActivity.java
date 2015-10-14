@@ -38,4 +38,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Override
+    protected void onResume(){
+        super.onResume();
+        mNameField.setText("");
+    }
+
 }
